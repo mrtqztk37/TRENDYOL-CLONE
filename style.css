@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0 15px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+
+ position: fixed;
+  
+  width: 95%;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  z-index: 100;
+  
+
+
+  
+
+}
+.kategori{
+  position: relative;
+}
+
+header .icons span {
+  font-weight: 450;
+  font-size: 13px;
+  cursor: pointer;
+}
+header .icons span:hover {
+  color: #f27a1a;
+}
+.ana-logo {
+  height: 100%;
+  width: 210px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+header .en-üst ul {
+  display: flex;
+  justify-content: right;
+  margin-right: 0px;
+  gap: 12px;
+  list-style-type: none;
+  font-size: 11px;
+  color: gray;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+header .logo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  margin-right: 1px;
+}
+
+ 
+
+
+.kategori ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  list-style-type: none;
+  border-bottom: 1px solid rgb(203, 201, 201);
+  font-weight: 450;
+  cursor: pointer;
+  margin-right: 0;
+}
+span {
+  margin-left: 1px;
+}
+
+.kategori ul li:hover {
+  text-decoration: underline;
+  color: #f27a1a;
+  transition: 0.3s;
+}
+header input {
+  height: 30px;
+  width: 600px;
+  margin-left: 20px;
+  border-radius: 4px;
+  padding-left: 20px;
+  border: none;
+  background-color: #f3f3f3;
+  position: relative;
+  cursor: pointer;
+}
+header .search-icon {
+  color: #f27a1a;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 17px;
+  cursor: pointer;
+  font-size: 20px;
+  height: 28px;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  margin-top: 80px;
+}
+.brands img {
+  width: 65px;
+  border-radius: 50px;
+}
+.brands img:hover {
+  border: 2px solid #f27a1a;
+  cursor: pointer;
+}
+
+.brands div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brands span {
+  font-weight: bold;
+  font-size: 13px;
+  transition: 0.5s;
+}
+.brands span:hover {
+  color: #f27a1a;
+  cursor: pointer;
+}
+.kelek {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.kelek img {
+  height: 60px;
+  cursor: pointer;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  margin: 10px;
+  cursor: pointer;
+}
+.gif img {
+  height: 80px;
+  width: 90%;
+  margin-left: 50px;
+}
+.container {
+  color: #fffaf6;
+}
+.flex {
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: white;
+}
+.boxer:hover {
+  scale: 1.03;
+  transition: 0.5;
+}
+.boxer {
+  border: 2px solid #e6e6e6;
+  width: 240px;
+  margin: 10px 5px;
+  height: 410px;
+  position: relative;
+  border-radius: 5px;
+}
+.boxer img {
+  width: 200px;
+  padding: 30px 30px;
+}
+.boxer .satan {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  margin-left: 2px;
+  padding: 0;
+}
+.widget {
+  margin: 10px 10px;
+  color: black;
+}
+.boxer a {
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 2px;
+}
+a span {
+  font-weight: bold;
+  font-size: 14px;
+}
+.boxer p {
+  margin-top: 40px;
+  margin-left: 10px;
+  color: #f27a1a;
+}
+.widget h2 {
+  font-size: 21px;
+}
+.başlık {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.başlık span {
+  font-size: 13px;
+  font-weight: bold;
+}
+.img-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  padding: 10px;
+  place-items: center;
+  margin: 0 70px;
+
+  margin-bottom: 20px;
+}
+.img-container img {
+  max-width: 100%;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid gainsboro;
+  margin-left: 5px 5px;
+}
+.img-container img:hover {
+  scale: 1.03;
+  transition: 0.5;
+}
+.paragraf {
+  margin: 70px 70px;
+}
+.paragraf h2 {
+  color: black;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.paragraf p {
+  font-size: 13px;
+  margin-top: 15px;
+  opacity: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+.list {
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.list:hover {
+  text-decoration: underline;
+}
+.ul li:hover {
+  text-decoration: underline;
+}
+.ul1 li:hover {
+  text-decoration: underline;
+}
+
+.ilk ul {
+  display: inline-block;
+  width: 130px;
+  height: 100%;
+  list-style-type: none;
+  padding: 5px 10px;
+  margin-left: 30px;
+}
+.ilk ul li {
+  padding: 3px;
+}
+.ilk h2 {
+  margin: 30px 70px;
+  font-size: 21px;
+}
+.ikinci h2 {
+  margin: 30px 70px;
+  font-size: 21px;
+}
+.ikinci ul {
+  display: inline-block;
+  width: 190px;
+  list-style-type: none;
+  padding: 5px 10px;
+  height: 100%;
+}
+.ikinci ul li {
+  padding: 3px;
+}
+.alt-foto {
+  background-color: black;
+  justify-content: space-between;
+  margin: 0 70px;
+  cursor: pointer;
+}
+.kafalar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+  align-items: center;
+  padding: 30px;
+  padding-bottom: 0;
+}
+.enalt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+  padding: 20px;
+}
+.enalt span {
+  font-size: 19px;
+}
+.enalt ul {
+  list-style-type: none;
+  font-size: 12px;
+  align-items: center;
+}
+.enalt ul li {
+  padding: 4px;
+}
+.enalt ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+.one {
+  margin-left: 70px;
+}
+.one:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.four {
+  margin-right: 100px;
+}
+.four:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.foto {
+  height: 80px;
+}
+.foto1 {
+  margin-left: 250px;
+  height: 110px;
+  width: 90px;
+}
+.three {
+  margin-left: 110px;
+}
+.three:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.two {
+  margin-left: 90px;
+}
+.two:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
